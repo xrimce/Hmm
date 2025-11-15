@@ -29,7 +29,7 @@ app.post('/send', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('🛡️ Webhook Shield is Active!');
+    res.send('Running');
 });
 
 const PORT = process.env.PORT || 3000;
